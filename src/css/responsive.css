@@ -1,0 +1,38 @@
+@media screen and (max-width: 910px) {
+    .car-type {
+        width: 700px;
+    }
+
+    .car-type .cars .box-content .text-content p {
+        font-size: 1.4rem;
+    }
+
+    .car-type .cars .box-content .btn-sedan,
+    .car-type .cars .box-content .btn-suv,
+    .car-type .cars .box-content .btn-luxury {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .car-type {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .car-type .cars.sedan {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .car-type .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .car-type .cars .box-content .btn-sedan,
+    .car-type .cars .box-content .btn-suv,
+    .car-type .cars .box-content .btn-luxury {
+        width: 60%;
+    }
+}

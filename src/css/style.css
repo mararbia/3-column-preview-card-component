@@ -1,0 +1,123 @@
+html {
+    font-size: 62.5%;
+}
+
+#main {
+    background-color: var(--very-light-gray);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-type {
+    /* background-color: aquamarine; */
+    width: 900px;
+    display: flex;
+}
+
+.car-type .cars.sedan {
+    background-color: var(--orange);
+    padding: 25px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    /* min-height: 400px; */
+}
+
+.car-type .cars .box-content {
+    /* background-color: cadetblue; */
+    width: 90%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+.car-type .cars .box-content .text-content img {
+    width: 64px;
+    height: 40px;
+}
+
+.car-type .cars .box-content .text-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.car-type .cars .box-content .text-content h1 {
+    font-family: var(--bigShouldersDisplay);
+    color: var(--very-light-gray);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.car-type .cars .box-content .text-content p {
+    font-family: var(--lexa);
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--transparent-white);
+    line-height: 2.5rem;
+}
+
+.car-type .cars .box-content .btn-sedan {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: var(--orange);
+    background-color: var(--very-light-gray);
+}
+
+.car-type .cars .box-content .btn-sedan:hover {
+    background-color: var(--orange);
+    border: 1px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+}
+
+.car-type .suv {
+    background-color: var(--dark-cyan);
+    padding: 25px;
+    width: 300px;
+}
+
+.car-type .cars .box-content .btn-suv {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: var(--dark-cyan);
+    background-color: var(--very-light-gray);
+}
+
+.car-type .cars .box-content .btn-suv:hover {
+    background-color: var(--dark-cyan);
+    border: 1px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+}
+
+.car-type .luxury {
+    background-color: var(--very-dark-cyan);
+    padding: 25px;
+    width: 300px;
+    border-radius: 0 10px 10px 0;
+}
+
+.car-type .cars .box-content .btn-luxury {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: var(--very-dark-cyan);
+    background-color: var(--very-light-gray);
+}
+
+.car-type .cars .box-content .btn-luxury:hover {
+    background-color: var(--very-dark-cyan);
+    border: 1px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+}
